@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.yaml
+**/secrets.yaml
+
+# Home Assistant runtime data
+config/
+backups/
+*.tar
+*.tar.gz
+config/.storage/
+config/.cloud/
+config/deps/
+config/tts/
+config/backups/
+config/backup/
+config/*.db
+config/*.db-*
+config/*.log
+config/*.log.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
